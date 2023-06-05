@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>40</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Person&gt;&gt;
+--
+_name: String
+_lastname: String
+--
+get name();
+get lastname();
+set name(String);
+set lastname(String);</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>230</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Employee&gt;&gt;
+--
+department: String
+--
+get department();
+get department();</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>160</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element></diagram>

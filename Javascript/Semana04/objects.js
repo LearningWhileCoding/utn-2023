@@ -71,8 +71,6 @@ console.log(personArray);
 let personString = JSON.stringify(person);
 console.log(personString);
 
-<<<<<<< HEAD
-=======
 console.log('Lesson 5 - Setters & Getters');
 console.log(person.description);
 
@@ -125,4 +123,3 @@ console.log(person4.fullDescription.call(person5, 'Actor', '19343458734'));
 // apply
 let array = ['Act.', '174300345'];
 console.log(person4.fullDescription.apply(person5, array));
->>>>>>> remotes/origin/main
