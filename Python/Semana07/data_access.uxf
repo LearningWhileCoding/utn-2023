@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>60</y><w>210</w><h>220</h></coordinates><panel_attributes>&lt;&lt;Connection&gt;&gt;
+--
+-DATABASE: String
+-USERNAME: String
+-PASSWORD: String
+-DB PORT: String
+-HOST: String
+-connection: Connection
+-cursor: Cursor
+--
++getConnection(cls): Connection
++getCursor(cls): Cursor
++close(cls)
+--
+Responsibilities
+Manage the database connection</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>380</y><w>210</w><h>220</h></coordinates><panel_attributes>&lt;&lt;DaoPerson&gt;&gt;
+--
+-SELECT: String
+-INSERT: String
+-UPDATE: String
+DELETE: String
+--
++select(cls)
++insert(cls, person)
++update(cls, person)
++delete(cls, person)
+--				
+Responsibilities
+Perform operations on the database 
+of the 'Person' entity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>70</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Person&gt;&gt;
+--
+-person_id: int
+-name: String
+-lastname: String
+-email: String
+-connection: Connection
+-cursor: Cursor
+--
++__str__(): String
++ getters/setters
+--
+Responsibilities
+Create objects of the Person entity</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>270</y><w>330</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>310;220;10;220;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>250</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element></diagram>
