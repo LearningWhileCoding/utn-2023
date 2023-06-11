@@ -1,0 +1,64 @@
+04:00:30 PM:DEBUG [logger_base.py:12]Debug level log
+04:00:30 PM:INFO [logger_base.py:13]Info level log
+04:00:30 PM:WARNING [logger_base.py:14]Warning level log
+04:00:30 PM:ERROR [logger_base.py:15]Error level log
+04:00:30 PM:CRITICAL [logger_base.py:16]Critical level log
+04:32:07 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:34:05 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:08 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:08 PM:DEBUG [Person.py:55]
+        Person Id: Hermione
+        Name: Granger
+        Lastname: hgranger@gmail.com
+        Email: None
+    
+04:35:40 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:40 PM:DEBUG [Person.py:55]
+        Person Id: None
+        Name: Hermione
+        Lastname: Granger
+        Email: hgranger@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:55]
+        Person Id: None
+        Name: Hermione
+        Lastname: Granger
+        Email: hgranger@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:58]
+        Person Id: 1
+        Name: None
+        Lastname: None
+        Email: None
+    
+05:17:38 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f88cbdaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:18:39 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fe2371425c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:18:39 PM:ERROR [Connection.py:38]An error has occured:'NoneType' object has no attribute 'cursor'
+05:19:31 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f699bce25c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:19:31 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
