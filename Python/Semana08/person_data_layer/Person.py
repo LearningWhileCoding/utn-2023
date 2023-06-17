@@ -1,14 +1,14 @@
 from logger_base import log
 class Person:
     def __init__(self, id_person=None, name=None, lastname=None, email=None):
-        self.id_person = id_person
+        self._id_person = id_person
         self._name = name
         self._lastname = lastname
         self._email = email
 
     def __str__(self):
         return f'''
-        Person Id: {self.id_person}
+        Person Id: {self._id_person}
         Name: {self._name}
         Lastname: {self._lastname}
         Email: {self._email}
@@ -17,11 +17,11 @@ class Person:
     # Getters & Setters
     @property
     def id_person(self):
-        return self.id_person
+        return self._id_person
 
     @id_person.setter
-    def id_person(self, person_id):
-        self.id_person = person_id
+    def id_person(self, id_person):
+        self._id_person = id_person
 
     @property
     def name(self):

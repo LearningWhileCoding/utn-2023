@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2be10d8-9376-463d-851f-d2fec855a1f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Semana07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Semana07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/Person.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/Person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/dao_person.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/dao_person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/data_layer.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Semana08/person_data_layer/data_layer.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2RJMj3J7C486IWHX3ahIJSffObt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/augusto/UTN2023/Java/Semana09/UTNCalc",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2be10d8-9376-463d-851f-d2fec855a1f6" name="Changes" comment="" />
+      <created>1686963862333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686963862333</updated>
+    </task>
+    <servers />
+  </component>
+</project>
