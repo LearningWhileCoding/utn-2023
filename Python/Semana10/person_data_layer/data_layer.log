@@ -1,0 +1,329 @@
+04:00:30 PM:DEBUG [logger_base.py:12]Debug level log
+04:00:30 PM:INFO [logger_base.py:13]Info level log
+04:00:30 PM:WARNING [logger_base.py:14]Warning level log
+04:00:30 PM:ERROR [logger_base.py:15]Error level log
+04:00:30 PM:CRITICAL [logger_base.py:16]Critical level log
+04:32:07 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:34:05 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:08 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:08 PM:DEBUG [Person.py:55]
+        Person Id: Hermione
+        Name: Granger
+        Lastname: hgranger@gmail.com
+        Email: None
+    
+04:35:40 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:35:40 PM:DEBUG [Person.py:55]
+        Person Id: None
+        Name: Hermione
+        Lastname: Granger
+        Email: hgranger@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:52]
+        Person Id: 1
+        Name: Harry
+        Lastname: Potter
+        Email: hp@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:55]
+        Person Id: None
+        Name: Hermione
+        Lastname: Granger
+        Email: hgranger@gmail.com
+    
+04:37:05 PM:DEBUG [Person.py:58]
+        Person Id: 1
+        Name: None
+        Lastname: None
+        Email: None
+    
+05:17:38 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f88cbdaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:18:39 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fe2371425c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:18:39 PM:ERROR [Connection.py:38]An error has occured:'NoneType' object has no attribute 'cursor'
+05:19:31 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f699bce25c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:19:31 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:51:58 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fe7a79aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:51:58 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:54:02 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f471cfaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:54:02 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:58:43 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f6fe5cda5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:58:43 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:58:44 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f79782ea5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:58:44 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:58:45 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f2c18ef65c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:58:45 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+08:58:45 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fbcbb5aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+08:58:45 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:00:43 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f735f0fa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:00:43 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:01:33 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f1b21b9e5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:01:33 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:01:34 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fadf4daa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:01:34 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:01:34 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fafa837e5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:01:34 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:01:34 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7ff3dc1aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:01:34 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:02:53 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fe0577aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:02:53 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:03:21 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f36e87aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:03:21 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:04:05 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fe17dfaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:04:05 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:05:39 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f73c33aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+09:05:39 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 1
+        Name: Shaq
+        Lastname: O'Neal
+        Email: soneal@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 2
+        Name: Michael
+
+        Lastname: Jordan
+        Email: mjordan@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 3
+        Name: Lebron
+        Lastname: James
+        Email: ljames@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 10
+        Name: Larry
+        Lastname: Bird
+        Email: lbird@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 12
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 13
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+09:05:39 PM:DEBUG [dao_person.py:29]
+        Person Id: 14
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wc    hamberlain@gmail.com
+    
+10:12:39 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f726e2fa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:12:39 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:13:04 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fb7aefaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:13:04 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:13:04 PM:DEBUG [dao_person.py:32]Person added: 
+        Person Id: None
+        Name: Kareem
+        Lastname: Abdul Jabbar
+        Email: kabduljabar@gmail.com
+    
+10:13:04 PM:DEBUG [dao_person.py:40]Added people: 1
+10:14:19 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f60071aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:14:19 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:14:19 PM:DEBUG [dao_person.py:32]Person added: 
+        Person Id: None
+        Name: Kareem
+        Lastname: Abdul Jabbar
+        Email: kabduljabar@gmail.com
+    
+10:14:19 PM:DEBUG [dao_person.py:40]Added people: 1
+10:16:17 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f5865faa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:16:17 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:16:17 PM:DEBUG [dao_person.py:32]Person added: 
+        Person Id: None
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wchamberlain@gmail.com
+    
+10:16:17 PM:DEBUG [dao_person.py:40]Added people: 1
+10:41:15 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f8e9a3aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:41:15 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 1
+        Name: Shaq
+        Lastname: O'Neal
+        Email: soneal@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 2
+        Name: Michael
+
+        Lastname: Jordan
+        Email: mjordan@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 3
+        Name: Lebron
+        Lastname: James
+        Email: ljames@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 10
+        Name: Larry
+        Lastname: Bird
+        Email: lbird@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 12
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 13
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 14
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wc    hamberlain@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 15
+        Name: Kareem
+        Lastname: Abdul Jabbar
+        Email: kabduljabar@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 16
+        Name: Kareem
+        Lastname: Abdul Jabbar
+        Email: kabduljabar@gmail.com
+    
+10:41:15 PM:DEBUG [dao_person.py:56]
+        Person Id: 17
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wchamberlain@gmail.com
+    
+10:43:37 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fde3298a5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:43:37 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:43:37 PM:DEBUG [dao_person.py:42]Person updated: 
+        Person Id: 16
+        Name: Jerry
+        Lastname: West
+        Email: jwest@gmail.com
+    
+10:43:37 PM:DEBUG [dao_person.py:51]Updated people: 1
+10:51:29 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f7db9dce5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:51:29 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:54:34 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f484d3aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:54:34 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:55:09 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7fd7c36e65c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:55:09 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:55:36 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f9faf9aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:55:36 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:56:54 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f172d3aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:56:54 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:56:54 PM:DEBUG [dao_person.py:51]Person deleted: 
+        Person Id: 16
+        Name: None
+        Lastname: None
+        Email: None
+    
+10:56:54 PM:DEBUG [dao_person.py:60]Person deleted: 1
+10:59:30 PM:DEBUG [Connection.py:22]Succesfull connection: [<connection object at 0x7f523dfaa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+10:59:30 PM:DEBUG [Connection.py:35]The cursor was successfully opened.
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 1
+        Name: Shaq
+        Lastname: O'Neal
+        Email: soneal@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 2
+        Name: Michael
+
+        Lastname: Jordan
+        Email: mjordan@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 3
+        Name: Lebron
+        Lastname: James
+        Email: ljames@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 10
+        Name: Larry
+        Lastname: Bird
+        Email: lbird@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 12
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 13
+        Name: Tim
+        Lastname: Duncan
+        Email: tduncan@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 14
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wc    hamberlain@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 15
+        Name: Kareem
+        Lastname: Abdul Jabbar
+        Email: kabduljabar@gmail.com
+    
+10:59:30 PM:DEBUG [dao_person.py:75]
+        Person Id: 17
+        Name: Wilt
+        Lastname: Chamberlain
+        Email: wchamberlain@gmail.com
+    
+05:33:42 PM:ERROR [Connection.py:37]There was an error while getting the pool: connect() takes from 0 to 3 positional arguments but 5 were given
+05:34:46 PM:ERROR [Connection.py:38]There was an error while getting the pool: connect() takes from 0 to 3 positional arguments but 5 were given
+05:35:57 PM:DEBUG [Connection.py:35]Pool created successfully: <psycopg2.pool.SimpleConnectionPool object at 0x7f74e9d54cd0>
+05:35:57 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f74ea9aa5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:35:57 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f74ea9aa700; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:07 PM:DEBUG [Connection.py:35]Pool created successfully: <psycopg2.pool.SimpleConnectionPool object at 0x7f3c77b14e80>
+05:37:07 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f3c78f465c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:07 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f3c78f46700; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:07 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f3c78f46c00; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:07 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f3c78f46d40; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:07 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f3c78f46e80; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:30 PM:DEBUG [Connection.py:35]Pool created successfully: <psycopg2.pool.SimpleConnectionPool object at 0x7f63ccf10f10>
+05:37:30 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f63ce33a5c0; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:30 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f63ce33a700; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:30 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f63ce33ac00; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:30 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f63ce33ad40; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
+05:37:30 PM:DEBUG [Connection.py:17]Connection obtained from the connection pool: <connection object at 0x7f63ce33ae80; dsn: 'user=postgres password=xxx dbname=db_test host=127.0.0.1 port=5432', closed: 0>
