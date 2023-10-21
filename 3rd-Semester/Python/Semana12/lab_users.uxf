@@ -1,0 +1,74 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>lt=&lt;&lt;&lt;&lt;&lt;-
+
+</help_text><element><id>UMLClass</id><coordinates><x>200</x><y>40</y><w>230</w><h>240</h></coordinates><panel_attributes>&lt;&lt;Connection&gt;&gt;
+--
+-DATABASE: String
+-USERNAME: String	
+-PASSWORD: String
+-DB_PORT: String
+-HOST: String
+-MIN_CON: int
+-MAX_CON: int
+-pool: Pool
+--
++getPool(cls): Pool
++getConnection(cls): Connection
++releaseConnection(cls): Connection
++closeConnections(cls)
+--
+Responsibilities
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>50</y><w>230</w><h>190</h></coordinates><panel_attributes>&lt;&lt;User&gt;&gt;
+--
+-idUser: String
+-username: String
+-password: String
+--
++__str__(): String
++getters/setters
+--
+Responsibilities
+Create Objects instances of User type.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>50</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;menuAppUser&gt;&gt;
+--
+Responsibilities
+-Contains a menu with 5 options:
+1) List users
+2) Add user
+3) Update user
+4) Delete user
+5) Exit</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>330</y><w>230</w><h>240</h></coordinates><panel_attributes>&lt;&lt;PoolCursor&gt;&gt;
+--
+-conn: String
+-cursor: String
+--
++__init__(self)
++__enter__(self)
++__exit__(self)
+--
+Responsibilities
+Manage the Connection &amp; 
+Cursor Objects getted from 
+the Connections Pool. 
+The enter and exit methods 
+are the implementation of 
+the use  of 'with' to work 
+with the cursor.
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>290</y><w>240</w><h>220</h></coordinates><panel_attributes>&lt;&lt;UserDao&gt;&gt;
+--
+-SELECT: String
+-INSERT: String
+-UPDATE: String
+-DELETE: String
+--
++select(cls): List&lt;User&gt;
++insert(cls, user)
++update(cls, user)
++delete(cls, user)
+--
+Responsibilities
+Perform the CRUD operations 
+over the user entity.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>300</y><w>210</w><h>100</h></coordinates><panel_attributes>&lt;&lt;logger_base&gt;&gt;
+--
++logger: logging
+--
+Responsibilities
++ Logging setup for all the app.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>270</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>400</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>230</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>130</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element></diagram>
