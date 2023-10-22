@@ -1,0 +1,6 @@
+[submodule "4th-Semester/Javascript/pern-task-manager"]
+	path = 4th-Semester/Javascript/pern-task-manager
+	url = https://github.com/LearningWhileCoding/pern-task-manager
+[submodule "4th-Semester/Java/book-store"]
+	path = 4th-Semester/Java/book-store
+	url = https://github.com/LearningWhileCoding/springboot-book-store

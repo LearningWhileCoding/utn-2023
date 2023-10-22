@@ -1,8 +1,24 @@
-/Java/Semana07/Interfaces/nbproject/private/
-/Java/Semana07/Interfaces/build/
-/Java/Semana08/Java Beans/nbproject/private/
-/Java/Semana08/Java Beans/build/
-/Java/Semana08/Java Beans/dist/
-/Java/Semana08/ExceptionHandling01/nbproject/private/
-/Java/Semana08/ExceptionHandling01/build/
-Python/Semana07/.idea/
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore directories and files specific to Java
+target/
+/out/
+/build/
+/bin/
+test/
+resources/
+
+# Ignore Maven files
+.mvn/ 
+mvnw 
+mvnw.cmd
+
+# Ignore directories and files specific to JavaScript 
+/dist/
+env.js
+
+# Ignore Node
+node_modules/
